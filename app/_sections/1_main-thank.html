@@ -1,0 +1,41 @@
+<section class="thank-section ">
+	<div class="thank-section__container _container">
+		<div class="thank-section__block">
+			<h1 class="thank-section__title">Все прошло успешно!
+				<div class="thank-section__sub _title-section">Для составления точной стоимости мебели<br>
+					специалисту <b>необходимо задать вам<br>
+						несколько уточняющих вопросов</b></div>
+			</h1>
+		</div>
+		<div class="thank-section__bot">
+			<div class="thank-section__pic">
+				<img src="img/attention.svg" alt="">
+			</div>
+			<div class="thank-section__text">
+				Пожалуйста, проверьте корректность<br>
+				введенного вами номера телефона
+			</div>
+		</div>
+		<div class="thank-section__form">
+			<div class="thank-section__inner">
+				<div class="form-block__input">
+					<div class="err" id="cerror3"></div>
+					<input type="tel" class="form-control" name="phone" placeholder="Введите ваш телефон"
+						value="<?php echo $_COOKIE['phone']; ?>">
+				</div>
+				<button data-bs-toggle="modal" data-bs-target="#callback2" class="_main-btn">
+					<span>Нашли ошибку в номере?</span>
+					Нажмите здесь и введите<br>
+					корректный номер
+				</button>
+			</div>
+			<div class="form-in__bottom">
+				<div class="form-in__form-check form-check">
+					<input type="checkbox" class="check" checked="" id="check6">
+					<label class="form-check-label" for="check6">Я принимаю условия <a data-bs-toggle="modal"
+							data-bs-target="#security-politics">политики конфеденциальности</a></label>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

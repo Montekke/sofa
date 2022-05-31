@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+@include('_parts/head.html')
+
+<body>
+	<div class="wrapper">
+		@include('_parts/header.html')
+
+		<main class="main">
+			<div class="bg-main">
+				@include('_sections/section-main.html')
+			</div>
+			<div class="down">
+				<picture>
+					<source srcset="img/vniz.webp" type="image/webp">
+					<img src="img/vniz.png" alt="">
+				</picture>
+			</div>
+			@include('_sections/section-1.html')
+			<div class="bg-1">
+				@include('_sections/section-2.html')
+			</div>
+			<div class="bg-2">
+				@include('_sections/section-3.html')
+			</div>
+			@include('_sections/section-4.html')
+			@include('_sections/section-5.html')
+			@include('_sections/section-6.html')
+			@include('_sections/section-7.html')
+			@include('_sections/section-8.html')
+			@include('_sections/section-9.html')
+			@include('_sections/section-10.html')
+			@include('_sections/section-11.html')
+			@include('_sections/section-12.html')
+			<div class="bg-3">
+				@include('_sections/section-13.html')
+			</div>
+			@include('_sections/section-14.html')
+			@include('_sections/section-15.html')
+		</main>
+
+		@include('_parts/footer.html')
+	</div>
+	@include('_parts/modal.html')
+	@include('_parts/_politic.html')
+
+	@include('_parts/scripts.html')
+</body>
+
+</html>
